@@ -1,164 +1,214 @@
-<p align="center">
-  <a href="https://github.com/fabe/gatsby-universal">
-    <img
-      src="https://i.imgur.com/MFWrZSx.png"
-      height="80"
-      alt="gatsby-universal"
-      title="gatsby-universal"
-    />
-  </a>
-</p>
+![](https://i.imgur.com/TlwEgUo.png)
 
-<p align="center">
-  <a href="https://circleci.com/gh/fabe/gatsby-universal">
-    <img
-      src="https://circleci.com/gh/fabe/gatsby-universal.svg?style=svg"
-      alt="CircleCI"
-    />
-  </a>
-  <a href="https://greenkeeper.io/">
-    <img
-      src="https://badges.greenkeeper.io/fabe/gatsby-universal.svg"
-      alt="Greenkeeper badge"
-    />
-  </a>
-  <a href="https://github.com/prettier/prettier">
-    <img
-      src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"
-      alt="styled with prettier"
-    />
-  </a>
-  <a href="https://app.netlify.com/sites/gatsby-universal/deploys">
-    <img
-      src="https://api.netlify.com/api/v1/badges/3e49bb6e-c385-4807-a7e8-70eea491cfdf/deploy-status"
-      alt="Netlify Status"
-    />
-  </a>
-</p>
+# Gatsby Starter Portfolio: Jodie
 
-<p align="center">
-  An <em>opinionated</em> Gatsby v2 starter with React Context, styled-components, page transitions, scroll events with <code>IntersectionObserver</code> and a focus on accessibility and SEO. Made for state-of-the-art marketing sites.
-</p>
+A portfolio starter for [Gatsby](https://www.gatsbyjs.org/). The target audience are designers and photographers.
 
-<p align="center">
-  <strong>
-    You can access a demo of this starter online at <a href="https://gatsby-universal.netlify.com">gatsby-universal.netlify.com</a>.
-  </strong>
-</p>
+[Demo Website](https://jodie.lekoarts.de)
 
-***
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LeKoArts/gatsby-starter-portfolio-jodie) [![Edit gatsby-starter-portfolio-jodie](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/LeKoArts/gatsby-starter-portfolio-jodie/tree/master/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f51f5488-aa2d-4e42-baa7-4182d9e81c2e/deploy-status)](https://app.netlify.com/sites/portfolio-jodie/deploys) [![CircleCI](https://circleci.com/gh/LekoArts/gatsby-starter-portfolio-jodie.svg?style=svg)](https://circleci.com/gh/LekoArts/gatsby-starter-portfolio-jodie)
+
+- CSS-Grid powered layout with Sidebar
+- Large images & Instagram integration
+- Themeable pages & automatically adapting sidebar
+
+## Why?
+
+If you want to quickly bootstrap a design/photography portfolio or use it as a foundation for your personal site, the starters in _gatsby-starter-portfolio_ are a perfect fit for you! The project's goal is to offer minimalistic and fast websites.
+
+I hope you like my starters and create something awesome! To see some of my work, you can visit my [website](https://www.lekoarts.de) or support me on [Patreon](https://www.patreon.com/lekoarts) to get some neat rewards (4K images, project files, tutorial insights). Every pledge on Patreon helps me create more free starters!
+
+Also, check out the other starters for _gatsby-starter-portfolio_:
+
+- [gatsby-starter-portfolio-emma](https://github.com/LekoArts/gatsby-starter-portfolio-emma)
+- [gatsby-starter-portfolio-emilia](https://github.com/LekoArts/gatsby-starter-portfolio-emilia)
+- [gatsby-starter-portfolio-bella](https://github.com/LekoArts/gatsby-starter-portfolio-bella)
+- [gatsby-starter-portfolio-cara](https://github.com/LekoArts/gatsby-starter-portfolio-cara)
+
+Check out the [Gatsby Starter Portfolio Overview](https://gatsby-starter-portfolio.netlify.com/)!
 
 ## Features
 
-- [X] 🤩 Page Transitions, component-based (with no-js support)
-- [X] 👮‍♂️ `IntersectionObserver`, component-based (with polyfill)
-- [X] 🌿 React Context for global UI state, with SSR
-- [X] 💅 [`styled-components`](https://www.styled-components.com/) v4
-- [X] 💯 Optimized with [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) (including test)
-- [X] 🔥 Code Splitting of CSS and JS (component based)
-- [X] 🔪 Inline SVG support
-- [X] ⚙️ One config file for site-wide settings
-- [X] 💙 Most social + meta tags in one component
-- [X] 🖼 All favicons generated, only one icon file needed
-- [X] 🌐 Offline support
-- [X] 📄 Manifest support
-- [X] 🗺 Sitemap support
-- [X] 📱 Generated media queries for easy use
-- [X] 😎 [Prettier](https://prettier.io/) for code style
-- [X] 👷‍♂️ [CircleCI](https://circleci.com/) support
-- [X] 🐙 Schema JSONLD
-- [X] 🔎 [`size-plugin`](https://github.com/GoogleChromeLabs/size-plugin) to keep an eye on your bundle sizes
-- [X] 👨‍🏫 ESLint (based on [`eslint-plugin-react`](./.eslintrc))
+- Configurable
+    - Use the config to easily change the most important information
+    - Change the theming for styled-components
+    - Navigation powered by a .yaml file
+    - Layout driven by CSS-Grid
+- Create your projects by creating a folder full of images and adding an entry to a .yaml file
+- Shows your Instagram posts
+- TypeScript
+- Cypress for End-to-End testing
+- react-spring animations
+- Uses styled-components + styled-system for styling
+- Google Analytics support
+- SEO
+    - Sitemap
+    - Schema.org JSONLD
+    - OpenGraph Tags
+    - Twitter Tags
+- Offline Support
+- WebApp Manifest Support
+- Responsive Images
+    - Right image sizes
+    - Blurred loading animation
+    - WebP support
+    
+## Getting Started
 
-Do you have suggestions or feedback? [Open an issue](https://github.com/fabe/gatsby-universal/issues/new)!
+Check your development environment! You'll need [Node.js](https://nodejs.org/en/), the [Gatsby CLI](https://www.gatsbyjs.org/docs/) and [node-gyp](https://github.com/nodejs/node-gyp#installation) installed. The official Gatsby website also lists two articles regarding this topic:
+- [Gatsby on Windows](https://www.gatsbyjs.org/docs/gatsby-on-windows/)
+- [Check your development environment](https://www.gatsbyjs.org/tutorial/part-zero/)
 
-## Lighthouse scores (on [Netlify](https://netlify.com))
+To copy and install this starter run this command (with "project-name" being the name of your folder you wish to install it in):
 
-[![Lighthouse scores (on Netlify)](https://lighthouse.now.sh/?perf=100&pwa=100&a11y=100&bp=100&seo=100)](https://circleci.com/gh/fabe/gatsby-universal)
-
-## Usage
-
-[![Edit on CodeSandbox](https://cdn.rawgit.com/fabe/1dd805eed0153b47aba2b50cea2469ec/raw/64b0ea90c2a425d3847da908053f5f337128259b/edit-on-codesandbox-32px.svg)](https://codesandbox.io/s/github/fabe/gatsby-universal)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fabe/gatsby-universal)
-
-```bash
-# Installation with `gatsby-cli`
-gatsby new my-site https://github.com/fabe/gatsby-universal
-
-# Installation with `git clone`
-git clone git@github.com:fabe/gatsby-universal.git my-site
-cd my-site
-yarn install
-
-# To develop
-yarn develop
-
-# To build
-yarn build
-
-# To test SSR (for Lighthouse etc.)
-yarn ssr
-
-# To format JS (precommit)
-yarn format
-
-# To generate favicons (included in `build`)
-yarn build:favicons
 ```
+gatsby new project-name https://github.com/LekoArts/gatsby-starter-portfolio-jodie
+cd project-name
+npm run develop
+```
+
+### Configuring the Instagram source plugin
+
+1. You need to have a Facebook page (I know... :/)
+1. Go to your site settings -> Instagram -> Login into your Instagram account
+1. Create a [app](https://developers.facebook.com/apps/)
+1. Go to the [Graph API Explorer][gae]
+    1. Select your App from the top right dropdown menu
+    1. Select "Get User Access Token" from dropdown (right of access token field) and select needed permissions (manage_pages, pages_show_list, instagram_basic)
+    1. Copy user access token
+1. [Access Token Debugger][atd]:
+    1. Paste copied token and press "Debug"
+    1. Press "Extend Access Token" and copy the generated long-lived user access token
+1. [Graph API Explorer][gae]:
+    1. Paste copied token into the "Access Token" field
+    1. Make a GET request with "PAGE_ID?fields=access_token"
+    1. Find the permanent page access token in the response (node "access_token")
+1. [Access Token Debugger][atd]:
+    1. Paste the permanent token and press "Debug"
+    1. "Expires" should be "Never"
+    1. Copy the **access token**
+1. [Graph API Explorer][gae]:
+    1. Make a GET request with "PAGE_ID?fields=instagram_business_account" to get your **Business ID**
+    
+Now create a `.env` file at the root of the project with the following content:
+
+```
+BUSINESS_ID=YOUR_ID
+ACCESS_TOKEN=YOUR_TOKEN
+```
+
+You can paste your access token and Business ID there.
+
+### Adding a new project
+
+1. Create a new folder in `content/projects` and place your images there
+1. Add your project to the `content/projects/projects.yaml` file
+
+### Adding a new page
+
+Create a new `.tsx` file in the `src/pages` directory
+
+### Adding new features/plugins
+
+You can add other features by having a look at the official [plugins page](https://www.gatsbyjs.org/docs/plugins/)
+
+### Building your site
+
+```
+npm run build
+```
+Copy the content of the `public` folder to your webhost or use a website like Netlify which automates that for you.
 
 ## Configuration
 
-Find the site-wide configuration in `site-config.js`.
+You can configure your setup in `config/index.js`:
 
-```js
+```JS
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
-  themeColor: `#000`,
-  backgroundColor: `#fff`,
-  pathPrefix: null,
-  logo: path.resolve(__dirname, 'src/images/icon.png'),
-  social: {
-    twitter: `gatsbyjs`,
-    fbAppId: `966242223397117`,
+  pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
+
+  siteTitle: 'Jodie', // Navigation and Site Title
+  siteTitleAlt: 'Jodie - Gatsby Starter Portfolio', // Alternative Site title for SEO
+  siteTitleShort: 'Jodie', // short_name for manifest
+  siteHeadline: 'Come & Enjoy our excellent photos', // Headline for schema.org JSONLD
+  siteUrl: 'https://jodie.lekoarts.de', // Domain of your site. No trailing slash!
+  siteLanguage: 'en', // Language Tag on <html> element
+  siteLogo: '/logos/logo.png', // Used for SEO and manifest
+  siteDescription: 'Image-heavy photography portfolio with colorful accents & great typography',
+  author: 'LekoArts', // Author for schema.org JSONLD
+
+  // siteFBAppID: '123456789', // Facebook App ID - Optional
+  userTwitter: '@jodie', // Twitter Username
+  ogSiteName: 'jodie', // Facebook Site Name
+  ogLanguage: 'en_US', // og:language
+  googleAnalyticsID: 'UA-XXXXXX-X',
+
+  // Manifest and Progress color
+  themeColor: '#db7436',
+  backgroundColor: '#3b3c4f',
+}
+```
+
+You can also configure the styling of the site by editing the theme variables in `config/theme.ts`.
+
+```typescript
+interface ThemeShape {
+  breakpoints: string[]
+  fontSizes: string[]
+  colors: {
+    [key: string]: string
+  }
+  space: string[]
+  fontWeights: {
+    [key: string]: number
+  }
+  sidebarWidth: {
+    [key: string]: string
+  }
+}
+
+const theme: ThemeShape = {
+  breakpoints: ['480px', '650px', '1000px', '1200px', '1400px'],
+  fontSizes: ['1rem', '1.2rem', '1.44rem', '1.728rem', '2.074rem', '2.488rem'],
+  colors: {
+    primary: '#c66131',
+    secondary: '#494992',
+    grey: '#646066',
+    shade: '#f5f5f5',
   },
-};
+  space: [
+    '0',
+    '0.25rem',
+    '0.5rem',
+    '0.75rem',
+    '1rem',
+    '1.25rem',
+    '1.5rem',
+    '2rem',
+    '2.5rem',
+    '3rem',
+    '4rem',
+    '6rem',
+    '8rem',
+    '12rem',
+    '16rem',
+  ],
+  fontWeights: {
+    normal: 400,
+    bold: 700,
+  },
+  sidebarWidth: {
+    big: '375px',
+    normal: '320px',
+  },
+}
+
+export default theme
 ```
 
-> 🚨 Don't forget to update your `robots.txt` inside `static/`!
+**Attention:** You also need to edit `static/robots.txt` to include your domain!
 
-## Folder structure
-```bash
-├── gatsby-browser.js # Specify how Gatsby renders pages in the browser
-├── gatsby-config.js # Gatsby config, mostly taken from `site-config.js`
-├── gatsby-node.js # Modify webpack config
-├── gatsby-ssr.js # Specify how Gatsby builds pages
-├── site-config.js # Global settings for the whole site, used by multiple scripts
-├── content # Content & data, in both json and markdown
-├── src
-│   ├── components
-│   │   ├── head # All meta tags etc.
-│   │   ├── io # Intersection Observer component, uses render props
-│   │   ├── layout # Layout component
-│   │   │   ├── layout.css.js # .css.js for component's `styled-components`
-│   │   │   └── layout.js
-│   │   └── transition # Page Transition component, used by Gatsby APIs
-│   ├── constants # Site-wide constants (breakpoints, colors, etc.)
-│   ├── containers # Container components if store is needed
-│   ├── helpers
-│   │   ├── schemaGenerator.js # Generates JSON-LD schema.org snippets
-│   │   └── mediaTemplates.js # Creates media queries for styled-components
-│   ├── images # Images needed by the site/theme (not content)
-│   ├── pages
-│   ├── store # Store and provider of a React.createContext instance
-│   └── global.css.js # Global CSS
-└── scripts
-    ├── lighthouse.test.js # Tests the site specified inside `site-config.js` with Google Lighthouse (WIP)
-    └── favicons.js # Generates favicons and manifest using one png only.
-```
-
-## Author
-
-* Fabian Schultz ([@fschultz_](https://twitter.com/fschultz_)) - [Stink Studios](https://stinkstudios.com)
+[gae]: https://developers.facebook.com/tools/explorer/
+[atd]: https://developers.facebook.com/tools/debug/accesstoken/
